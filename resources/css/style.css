@@ -1,0 +1,136 @@
+.main-container {
+    margin-top: 80px;
+}
+
+.hidden {
+    display: none;
+}
+
+.col-md-auto {
+    margin-bottom: 15px;
+}
+
+.recipe-details {
+    width: 100%;
+    min-height: 350px;
+}
+
+div.food-item {
+    height: 100px;
+    width: 80px;
+    background-color: #888888;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.food-panel {
+    max-height: calc(100vh - 100px);
+    overflow: scroll;
+}
+
+.food-img {
+    margin-top: -80px;
+    float: left;
+}
+
+.plate_silver {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    background: url('../img/plate_silver.png') center no-repeat;
+    background-size: 80px 80px;
+}
+
+.bowl_silver {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    background: url('../img/bowl_silver.png') center no-repeat;
+    background-size: 80px 80px;
+}
+
+.plate {
+    width: 80px;
+    height: 80px;
+}
+
+div.mini-img-dtl {
+    width: 100%;
+    height: 20px;
+    margin-top: -15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 3px;
+}
+
+.coin, .cook, .coin-inline, .cook-inline {
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.coin {
+    float: left;
+}
+
+.coin-inline {
+    height: 15px !important;
+    display: inline-block;
+}
+
+.cook {
+    float: right;
+}
+
+.coin-1 {
+    background: url('../img/quagmire_coin1.png') center no-repeat;
+    background-size: 20px 20px;
+}
+
+.coin-2 {
+    background: url('../img/quagmire_coin2.png') center no-repeat;
+    background-size: 20px 20px;
+}
+
+.coin-3 {
+    background: url('../img/quagmire_coin3.png') center no-repeat;
+    background-size: 20px 20px;
+}
+
+.coin-4 {
+    background: url('../img/quagmire_coin4.png') center no-repeat;
+    background-size: 20px 20px;
+}
+
+.cook-1 {
+    background: url('../img/pot_small.png') center no-repeat;
+    background-size: 20px 20px;
+}
+
+.cook-2 {
+    background: url('../img/grill.png') center no-repeat;
+    background-size: 20px 20px;
+}
+
+.cook-3 {
+    background: url('../img/casseroledish_small.png') center no-repeat;
+    background-size: 20px 20px;
+}
+
+.indeg-row {
+    height: 33px;
+    margin-bottom: 4px;
+}
+
+.indeg-col {
+    height: 33px;
+    width: 33px;
+    background: url('../img/ingredient_slot.png') center no-repeat;
+    background-size: 33px 33px;
+    float: left;
+    margin-right: 4px;
+}
+
+.recipe-details-img {
+    margin-top: -110px;
+}
